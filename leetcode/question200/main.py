@@ -7,7 +7,3 @@ class Solution(object):
                 return 1
             return 0
         return sum(remove(i, j) for i in range(len(grid)) for j in range(len(grid[i])))
-    
-grid=[['0','0','1'],['0','0','1'],['1','1','1']]
-solution = Solution()
-print(solution.numIslands(grid))
