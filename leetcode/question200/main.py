@@ -7,3 +7,4 @@ class Solution(object):
                 return 1
             return 0
         return sum(remove(i, j) for i in range(len(grid)) for j in range(len(grid[i])))
+
